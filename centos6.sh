@@ -1,4 +1,5 @@
-ble ipv6
+#!/bin/bash
+iptable ipv6
 #------------------------------------------------------------------
 echo 'alias net-pf-10 off' >> /etc/modprobe.conf
 echo 'alias ipv6 off' >> /etc/modprobe.conf
